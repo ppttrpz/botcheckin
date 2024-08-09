@@ -57,7 +57,7 @@ class CheckinBot(models.Model):
         for item in data:
             # text = []
             
-            text = f"[test] \n สวัสดีตอนเช้าค่ะ 🌅 อย่าลืม Check in เข้าทำงานนะคะ 😊 ขอให้เป็นวันที่ดีและสนุกกับการทำงานนะคะ 💪😊 ขอบคุณค่ะ "
+            text = f"สวัสดีตอนเช้าค่ะ 🌅 อย่าลืม Check in เข้าทำงานนะคะ 😊 ขอให้เป็นวันที่ดีและสนุกกับการทำงานนะคะ 💪😊 ขอบคุณค่ะ "
             url = f"https://api.telegram.org/bot6382638700:AAHwehT8ZNz35b4LwIexYFPh0Sk4LiL_S_g/sendMessage"
             payload =                                                 {
                 "text": text,
